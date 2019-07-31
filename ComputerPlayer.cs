@@ -23,18 +23,10 @@ namespace RoshmboApp
                 Random rnd = new Random();
                double die = rnd.NextDouble();
                 die = (int)(die * 3);
-               if(0 == die)
-                {
-                    return Roshambo.Rock;
-                }
-               else if (1==die)
-                {
-                    return Roshambo.Paper;
-                }
-               else
-                {
-                    return Roshambo.Scissors;
-                }
+               
+                Roshambo RPS;
+                Enum.TryParse<Roshambo>($"{die}", out RPS);
+                return RPS;
             }
             else
             {
