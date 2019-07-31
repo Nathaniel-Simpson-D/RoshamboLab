@@ -1,0 +1,7 @@
+C:\CLabs\RoshmboApp\bin\Debug\RoshmboApp.exe.config
+C:\CLabs\RoshmboApp\bin\Debug\RoshmboApp.exe
+C:\CLabs\RoshmboApp\bin\Debug\RoshmboApp.pdb
+C:\CLabs\RoshmboApp\obj\Debug\RoshmboApp.csprojAssemblyReference.cache
+C:\CLabs\RoshmboApp\obj\Debug\RoshmboApp.csproj.CoreCompileInputs.cache
+C:\CLabs\RoshmboApp\obj\Debug\RoshmboApp.exe
+C:\CLabs\RoshmboApp\obj\Debug\RoshmboApp.pdb
