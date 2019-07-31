@@ -79,21 +79,17 @@ namespace RoshmboApp
 
             
             
-            if ("rock" == input)
+            if ("rock" == input.ToLower()|| ChV == 1)
             {
                 return (int)Roshambo.Rock;
             }
-            else if("paper" == input)
+            else if("paper" == input.ToLower() || ChV == 2)
             {
                 return (int)Roshambo.Paper;
             }
-            else if ("scissors" == input)
+            else if ("scissors" == input.ToLower() || ChV == 3)
             {
                 return (int)Roshambo.Scissors;
-            }
-            else if (ChV >= 1 && ChV <= 3)
-            {
-                return ChV - 1;
             }
             else
             {

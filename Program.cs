@@ -48,13 +48,14 @@ namespace RoshmboApp
                 }
 
                 scenario.Round++;
-                Console.WriteLine($"\n{scenario.Round}= {nameUser.Name}:{scenario.PlayerWins} - {comp.Name}:{scenario.CompWins}");
+                Console.WriteLine($"\nRound {scenario.Round} = {nameUser.Name}:{scenario.PlayerWins} - {comp.Name}:{scenario.CompWins}");
                 repeat = Validator.GetYN("Another round?");
             }
 
             Console.Clear();
             if (scenario.PlayerWins > scenario.CompWins)
             {
+                Console.WriteLine($"{nameUser.Name}:{scenario.PlayerWins} - {comp.Name}:{scenario.CompWins}");
                 Validator.EndProgram($"{nameUser.Name} WINS at round {scenario.Round}!");
             }
             else

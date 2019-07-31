@@ -17,23 +17,24 @@ namespace RoshmboApp
 
         public override Roshambo GenerateRoshambo()
         {
-            Console.WriteLine("Choose: Rock, Papaer, or Scissors.");
+            Console.WriteLine("Choose: Rock, Papaer, or Scissors(1/2/3).");
             int input = Validator.GetRPSChoice();
-            if (input == 0)
+            if (input == 1)
             {
                 this.Choice = Roshambo.Rock;
                 return Roshambo.Rock;
             }
-            else if (input == 1)
+            else if (input == 2)
             {
                 this.Choice = Roshambo.Paper;
                 return Roshambo.Paper;
             }
             else
-            {
+            { 
                 this.Choice = Roshambo.Scissors;
                 return Roshambo.Scissors;
             }
+            
         }
     }
 }
